@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 400px){
+  html{
+    font-size: 4px;
+  }
+  body{
+    width: 100%;
+  
+    background-image: linear-gradient(to bottom, rgb(104, 120, 122), rgba(7, 11, 11, 0));
+    position: relative;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  }
+  @media screen and (min-width: 400px) and (max-width:576px){
+    html{
+      font-size: 9px;
+    }
+    body{
+        width: 100%;
+        height: 70rem;
+        /* background-color: rgb(248, 243, 243); */
+        background-image: linear-gradient(to bottom, rgb(104, 120, 122), rgba(7, 11, 11, 0));
+        position: relative;
+        /* background-color: antiquewhite; */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:768px){
+  html{
+    font-size: 9px;
+  }
+  body{
+      width: 100%;
+      height: 70rem;
+      /* background-color: rgb(248, 243, 243); */
+      background-image: linear-gradient(to bottom, rgb(104, 120, 122), rgba(7, 11, 11, 0));
+      position: relative;
+      /* background-color: antiquewhite; */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+  html{
+    font-size: 9px;
+  }
+  body{
+      width: 100%;
+      height: 70rem;
+      /* background-color: rgb(248, 243, 243); */
+      background-image: linear-gradient(to bottom, rgb(104, 120, 122), rgba(7, 11, 11, 0));
+      position: relative;
+      /* background-color: antiquewhite; */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+@media screen and (min-width: 992px) and (max-width:1200px){
+  html{
+    font-size: 9px;
+  }
+  body{
+      width: 100%;
+      height: 70rem;
+      /* background-color: rgb(248, 243, 243); */
+      background-image: linear-gradient(to bottom, rgb(104, 120, 122), rgba(7, 11, 11, 0));
+      position: relative;
+      /* background-color: antiquewhite; */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width:1400px){
+  html{
+    font-size: 9px;
+  }
+  body{
+      width: 100%;
+      height: 70rem;
+      /* background-color: rgb(248, 243, 243); */
+      background-image: linear-gradient(to bottom, rgb(104, 120, 122), rgba(7, 11, 11, 0));
+      position: relative;
+      /* background-color: antiquewhite; */
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+    @media screen and (min-width: 1400px){
+        html{
+          font-size: 15px;
+        }
+
+
+body{
+    width: 100%;
+    height: 70rem;
+    /* background-color: rgb(248, 243, 243); */
+    background-image: linear-gradient(to bottom, rgb(104, 120, 122), rgba(7, 11, 11, 0));
+    position: relative;
+    /* background-color: antiquewhite; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    }
+
+img{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+.loginbox
+   {
+     width: 38%;
+     height: 80%;
+     background: rgb(97 70 70); 
+     opacity: .95;
+     background-image: linear-gradient(to bottom, rgb(30, 41, 43), rgba(79, 88, 88, 0));
+     color:#fff ;
+     top: 48%;
+   left: 48%;
+   position: fixed;
+   transform: translate(-50%,-50%);
+   box-sizing: border-box;
+   padding: 1rem 3rem;
+   border-radius: 1.5rem;
+   }
+   #heading{
+    text-align: center;
+    font-size: 3rem
+   }
+   .a{
+    font-size: 1.7rem;
+   }
+   .avatar
+   {
+     width: 11rem;
+     height: 11rem;
+     border-radius: 50%;
+     position: absolute;
+     top: 0px;
+     left: calc(50% - -50px);
+     
+   }
+   .subject-line{
+    font-size: 1.35rem;
+    font-style: italic;
+    color: red;
+    position: absolute;
+    top:6rem;
+    left: calc(35% - -50px) ;
+   }
+   .loginbox input {
+    width : 50%;
+    margin-bottom: 1rem;
+    margin-top: 10;
+
+  }
+  .loginbox input[type="email"],input[type="tel"], input[type="text"] , input[type = "password"]
+  {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: rgb(98, 98, 98);
+    font-size: 16px;
+    
+  }  
+  .loginbox input[value = "Google"] 
+   
+   {
+     border: none;
+     outline: none;
+     background: #00a1fe;
+     color: #fff;
+     font-size: 1rem;
+     width: 70px;
+     border-radius: 1.5rem;
+     
+   }
+   .loginbox input[value = "Facebook"] 
+   
+   {
+     border: none;
+     outline: none;
+     background: #00a1fe;
+     color: #fff;
+     font-size: 1rem;
+     width: 8rem;
+     border-radius: 1.5rem;
+     
+   }
+   .loginbox input[type="text"]:focus{
+    width: 70%;
+    color: rgb(255, 233, 160);
+   }
+   .loginbox input[type="email"]:focus{
+    width: 70%;
+    color: rgb(255, 233, 160);
+   }
+   .loginbox input[type="tel"]:focus{
+    width: 70%;
+    color: rgb(255, 233, 160);
+   }
+   .loginbox input[type="password"]:focus{
+    width: 70%;
+    color: rgb(255, 233, 160);
+   }
+   
+    .loginbox input[type = "submit"] 
+   
+   {
+     border: none;
+     outline: none;
+     background: #00a1fe;
+     color: #fff;
+     font-size: 1.8rem;
+     border-radius: .5rem;
+     
+   }
+    .loginbox input[type = "submit"]:hover 
+   
+   {
+     cursor: pointer;
+     background: #5fbaef;
+     color: #000;
+   }
+
+   #sign-up{
+    text-decoration: none;
+   
+    color: rgb(56, 159, 219);
+   }
+   #sign-up:hover{
+    color:  rgb(94, 171, 216);
+    
+   }

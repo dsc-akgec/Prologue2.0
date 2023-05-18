@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: none;
+    background-image: url("img/lk.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.head{
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+}
+body h3{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.log{
+    width: 40%;
+   font-size: 120%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position: relative;
+    margin-left: 30%;
+    opacity: .9;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px 3px rgb(105, 108, 109);
+}
+.con-1{
+    margin-left: 5%;
+}
+#log-in{
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 3.5rem;
+    border: none;
+    width: 75%;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 150, 58);
+
+}
+#log-in:hover{
+    background-color: rgb(30, 142, 73);
+}
+.sign-up{
+    display: flex;
+}
+.sign{
+    margin-left: 17%;
+    font-size: 85%;
+    color: rgb(0, 120, 225);
+}
+.forgot{
+    margin-left: 10%;
+    font-size: 85%;
+    color: rgb(0, 136, 255);
+}
+p{
+     margin-top: 0;
+     margin-bottom: 1%;
+}
+.username-box{
+    width: 94%;
+}
+.pass{
+    width: 94%;
+}
