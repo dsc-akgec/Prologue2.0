@@ -1,0 +1,275 @@
+*{
+        margin: 0;
+        padding: 0;
+    box-sizing: content-box;
+   
+}
+
+@media only screen and (max-width: 786px) {
+        /* For mobile phones: */
+        html,body {
+          width: 100em;
+        }
+      }
+
+body{
+        text-align: center;
+        margin: 2em;
+        font-weight: bold;
+        font-size: large;
+        padding: 2em;
+        border: 10px black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        overflow: hidden;
+        width: 20em;
+        height: 50em;
+        border-radius: 20px;
+        background-image: url(./bg-01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+        background-size: cover ;
+        padding:30px 25px 25px 25px;
+        align-items: center;
+        justify-content: center;
+             
+        /*transform: translate(80%);*/
+}
+
+html,body{
+        display: grid;
+        height:100%;
+        width:100%;
+        place-items: center;
+}
+
+.cont{
+        background: #ffff;
+        width: 380px;
+        height: 29em;
+        padding: 12%;
+        transform: translate(0%,0%);
+        border-radius: 5%;
+    
+        
+}
+
+.login{
+        
+        font-size: xx-large;
+        padding:;
+        border:20px;
+        width:2;
+        text-align:center;
+       /* padding: ;
+        height: ;*/
+        
+}
+
+.email{
+        
+        font-size: large;
+        text-align: left;
+        
+}
+
+.password{
+        font-size: large;
+        text-align: left;
+        
+}
+
+input[type="email"],
+input[type="password"]
+{
+    
+    height: 2em;
+    width: 90%;
+    border: white;
+    border-bottom: solid rgb(219, 212, 212);
+    font-size: 90%;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::placeholder{
+    color: rgba(126, 120, 120, 0.541);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+input[type="button"]{
+                        height: 4%;
+                        width: 80%;
+                        padding: 5%;
+                        margin: -2%;
+                        border:none;
+                        font-size: large;
+                        color: white;
+                        border-radius: 40px;
+                        cursor: pointer;
+                        background-color: rgb(5, 190, 247);
+                        background-size: 200%;
+                        transform: translate();
+                        text-decoration: none;
+                        background-image: linear-gradient(to left,#02d8f5,#ff4fbc,#02d8f5);
+                        background-image: linear-gradient(to center,#ff4fbc,#02d8f5,#ff4fbc,);
+                        
+}
+
+input[type="button"]:hover{
+                                background-position: right;
+}
+
+.fs{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    transform: translate(-9%,-40%);
+    color: rgb(148, 143, 143);
+    font-weight: lighter;
+    cursor: pointer;
+    margin:4%;
+}
+
+.or{
+        text-align: center;
+        padding:40px;
+        font-size: larger;
+}
+
+.icon{
+        margin: -30px;
+}
+
+.gender{
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        font-size: large;
+        padding:2%;
+        
+}
+
+.type{
+        text-align: center;
+       
+        border:20%;
+}
+
+input[type="radio"]{
+                      padding:20px;
+                      margin: 10px;  
+                        
+}
+
+.course{
+        font-size:large;
+        text-align: left;
+        cursor:pointer;
+        padding:4px;
+        
+}
+
+#Select_Course{
+        
+        margin: 10px;
+        width:20em;
+        height: 2em;
+        text-align: center;
+        font-weight: bold;
+}
+
+a:link, a:visited{
+        color:rgb(231, 84, 108);
+        text-decoration: none;
+        text-underline-offset: none;
+        font-size: larger;
+}
+
+option[value="CSE"]
+
+{
+        
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+}
+option[value="IT"]
+
+{
+        
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+}
+
+option[value="CS&IT"]
+
+{
+        
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+}
+
+option[value="CS"]
+
+{
+        
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+}
+option[value="AIML"]
+
+{
+        
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+}
+
+.dob{
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        font-size: large;
+        border:20px;
+        margin:5%;
+}
+input[type="date"]{
+        margin: 10px;
+        width:20em;
+        height: 2em;
+        
+        font-weight: bold;
+}
+/*.cont .title{
+  height: 90px;
+  background: #16a085;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont .email input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+ align-items: center;
+  justify-content: center;
+    
+
+
+*/
