@@ -1,0 +1,260 @@
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Global Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img{
+  height: 100px;
+  clip-path: circle();
+  opacity: 1;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu a:hover{
+  color: blueviolet;
+  text-decoration: underline;
+
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.hero a{
+  background-color: orangered;
+  border: 2px solid white;
+}
+
+.hero a:hover{
+  background-color: brown;
+  border: 2px solid black;
+  color: black;
+}
+
+.btn {
+  display: inline-block;
+  background: orangered;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 2px solid black;
+}
+
+.btn:hover{
+  background-color: brown;
+  text-decoration: underline;
+}
+
+
+/* Explore Section */
+#destinations {
+  background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  height: 900px;
+  background-size: cover;
+  animation-name: swip;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  padding: 40px 0;
+}
+
+@keyframes swip{
+  0%
+  {
+      background-image: url(img1.jpg);
+  }
+  25%
+  {
+      background-image: url(img2.jpg);
+  }
+  50%
+  {
+      background-image: url(img3.jpg);
+  }
+  75%
+  {
+      background-image: url(img4.jpg);
+  }
+  100%
+  {
+      background-image: url(img5.jpg);
+  }
+}
+
+#destinations h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #333;
+  color: white;
+}
+
+#destinations h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:bolder;
+}
+
+.destination-card {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.destination-card a{
+  background-color: peru;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.destination-card a:hover{
+  background-color: #123
+}
+
+/* Attractions Section */
+#attractions {
+  padding: 40px 0;
+  background-color: #e7dcdc;
+}
+
+#attractions h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #333 ;
+  color: white;
+}
+
+.attraction-card {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.attraction-card img {
+  width: 50%;
+  max-height: 500px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Services Section */
+#services {
+  background: #f9f9f9;
+  background-color: #e7dcdc;
+  opacity: 1.5;
+  padding: 40px 0;
+}
+
+#services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #333;
+  color: white;
+}
+
+#services ul {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#services li {
+  margin-bottom: 10px;
+}
+
+#services li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Contact Section */
+#contact {
+  padding: 40px 0;
+  background-color: #e7dcdc;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #333;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
