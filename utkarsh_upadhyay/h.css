@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    
+height: 757px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+    background-image: url("pexels-mateusz-sałaciak-4275885.jpg");
+align-items: center;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+color: white;
+align-items: center;
+}
+.searchbar input{
+    width: 433px;
+    height: 39px;
+    margin-top: 27px;
+    border-radius: 9px;
+}
+.logo{
+font-size: 2rem;
+}
+.nav{
+
+    display: flex;
+}
+
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 18px;
+}
+.nav a:hover{
+    width: 155%;
+    height:155%;
+    background-color: white;
+    color:  cadetblue;
+    transition: o.5s ease-in-out;
+}
+.info{
+    color: aliceblue;
+    flex-direction: column;
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: 182px;
+    font-size: large;
+
+}
+.info h1{
+    margin: 23px;
+}
+.bbbtn{
+    background-color: cadetblue;
+    width: 154px;
+    height: 23px;
+    border-radius: 6px;
+    color: white;
+    border-style: none;
+
+}
+.bbbtn:hover{
+color: black;
+background-color: white;
+color: cadetblue;
+
+    transform: scale(1.5);
+transition: 0.2s ease-in-out ;
+
+}
+.btn{
+    margin-top: 20px;
+    max-height: 70px;
+    max-width: 116px;
+    border-radius: 5px;
+}
+
+
+.sec1{
+
+    margin-top:37px ;
+    position: relative;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+}
+   .sec11{
+  margin-right: 15px;
+    text-align: center;
+
+    }
+    .sec11 h1{
+margin-bottom: 12px;
+    }
+@media (max-width:609px) {
+    .sec1 {
+        margin-top:37px ;
+        position: relative;
+        display: flex;
+        color: black;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sec11{
+        margin-top: 25px;
+    }
+
+    .searchbar input {
+        width: 333px;
+        height: 39px;
+        margin-top: 27px;
+        border-radius: 9px;
+    }
+    
+}
+.vist{
+    text-align: center;
+    background-color: cadetblue ;
+    color: white;
+    margin-top:42px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.sec2 {
+    background-color: rgb(201, 231, 232) ;
+    color: white;
+    margin-left:4px;
+    margin-right:4px;
+display: grid;
+grid-gap: 1rem;
+grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+grid-template-rows: repeat(auto-fit,minmax(1fr,1fr));
+}
+
+
+.sec22{
+    background-color: cadetblue ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   text-align: center;
+   
+ 
+    
+}
+.sec22 img{
+width: 100%;
+height: 75%;
+
+}
+.sec22 img:hover{
+    transition: 0.5s ease-in-out;
+   transform: scale(1.1);
+}
+.sec22 h1{
+    margin-top: 25px;
+}
+.sec22 button{
+    margin-top: 17px;
+width: 50%;
+height: 5%;
+background-color: white ;
+    color: cadetblue;
+    align-self: center;
+    border-radius: 12px;
+    border-style: none;
+}
+.sec22 button:hover{
+    background-color: rgb(13, 51, 78) ;
+    color: cadetblue;
+    
+}
+  
+ @media (min-width:1245px) {
+    .sec2{
+    background-color: rgb(201, 231, 232) ;
+    color: white;
+    margin-left:4px;
+    margin-right:4px;
+display: grid;
+grid-gap: 1rem;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+    }
+    .sec22{
+        padding: 45px;
+    }
+
+ } 
+ .footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .footer input{
+    margin-top: 13px;
+    width: 284%;
+    height: 6%;
+    position: relative;
+    right: 159px;
+ }
+ .footer button{
+    background-color: white;
+    color: black;
+    margin-top: 13px;
+    width: 236%;
+    border-radius: 23px;
+    border-style: none;
+    position: relative;
+    right: 19px;
+ }
+ .footer h2{
+    margin-top: 13px;
+    font-size: 2rem;
+    
+ }
+ #fooh1{
+margin:12px ;
+font-size: smaller;
+ }
+ 
+
+@media (max-width:491px){
+    .vist{
+       width: fit-content;
+        background-color: cadetblue ;
+        color: white;
+        margin-top:42px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .footer input{
+        margin-top: 13px;
+        width: 140%;
+        height: 6%;
+        position: relative;
+        right: 4%;
+     }
+     .footer h2{
+        font-size: smaller;
+     }
+}
+@media (max-width:337px){
+    .footer input{
+        margin-top: 13px;
+        width: 100%;
+        height: 6%;
+        position: relative;
+        right: 4%;
+     }
+     .searchbar input{
+        width: 233px;
+        height: 39px;
+        margin-top: 27px;
+        border-radius: 9px;
+    }
+}
+.ani{
+    display: flex;
+    background-color: cadetblue;
+    margin-top: 23px;
+    margin-bottom:12px;
+    animation: utkarsh;
+    
+    animation-duration: 2s;
+}
+.ani img{
+    position: relative;
+    width: 10%;
+    height:4%;
+    animation: utkarsh;
+  animation-iteration-count: infinite;
+    animation-duration: 2.0s;
+}
+@keyframes utkarsh{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left:90%;
+    }
+    
+
+
+}
